@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="18dp"
+        android:text="Down below you will need to name two teams and player names and select basketball rule for the accurate chronometer. Each score applied will be applied to the name of the respective scorer. If there are no substitutes type 'Non' without the brackets. Have fun!"
+/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Team 1:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/teamOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Team Name Here"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Player 1:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerOne"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Player 2:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerTwo"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Player 3:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerThree"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Player 4:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerFour"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Player 5:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerFive"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Substitute 1:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerSix"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Substitute 2:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerSeven"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 / Substitute 3:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tOnePlayerEight"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- We learned this from a previous course but I forgot. So checked from this site: Reference: https://stackoverflow.com/questions/5049852/android-drawing-separator-divider-line-in-layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Team Name Here"
+                android:id="@+id/teamTwo"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Player 1:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerOne"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Player 2:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerTwo"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Player 3:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerThree"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Player 4:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerFour"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Player 5:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerFive"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Substitute 1:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerSix"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Substitute 2:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerSeven"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 2 / Substitute 3:"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type Player Name Here"
+                android:id="@+id/tTwoPlayerEight"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"/>
+        <!-- We learned this from a previous course but I forgot. So checked from this site: Reference: https://stackoverflow.com/questions/5049852/android-drawing-separator-divider-line-in-layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Choose Which Rule to Apply?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/highSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="High School - 8 minutes / 4 quarters"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/college"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="College - 20 minutes / 2 halves"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/nba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="NBA - 12 minutes / 4 quarters"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="submit"
+                android:layout_marginRight="15dp"
+                android:text="SAVE AND CONTINUE"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="submit1"
+                android:layout_marginLeft="15dp"
+                android:text="LOAD"
+                android:textColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
